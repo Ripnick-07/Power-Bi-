@@ -12,13 +12,27 @@ Dashboard de ventas desarrollado en Power BI a partir de datos ficticios que sim
 - Tabla calendario
 
 ---
+## 🧩 Modelo de datos
 
+El modelo fue diseñado bajo un esquema tipo estrella, separando claramente las tablas de hechos y dimensiones:
+
+- Tabla de hechos: Ventas
+- Tablas de dimensión: Clientes, Productos y Calendario
+- Se implementó una tabla calendario independiente para asegurar un análisis temporal correcto, permitiendo comparaciones mensuales, cálculo de crecimiento y correcta ordenación de fechas.
+---
 ## 📊 KPIs principales
 - Ventas Totales
 - Presupuesto Total
 - Variación $
 - Cumplimiento %
 - Crecimiento Mensual %
+---
+
+## 🎯 Decisiones de diseño
+
+- Se priorizaron KPIs de alto impacto (Ventas Totales, Cumplimiento %, Variación $) para facilitar una lectura rápida del desempeño general.
+- El dashboard fue estructurado para responder primero a una visión ejecutiva y luego permitir el análisis detallado mediante segmentadores.
+- Se evitó el uso excesivo de visualizaciones para mantener claridad y foco en la toma de decisiones.
 
 ---
 
@@ -30,6 +44,24 @@ Dashboard de ventas desarrollado en Power BI a partir de datos ficticios que sim
 
 ---
 
+## ❓ Preguntas de negocio abordadas
+
+- ¿Se está cumpliendo el presupuesto anual de ventas?
+- ¿Cómo evoluciona el desempeño de ventas a lo largo del año?
+- ¿Qué vendedores aportan mayor volumen de ventas?
+- ¿Existen meses con caídas relevantes que requieran acciones comerciales?
+
+---
+## 🏢 Uso en un entorno real
+
+Este dashboard podría ser utilizado por áreas comerciales y de control de gestión para:
+
+- Monitorear el desempeño mensual de ventas
+- Detectar desviaciones respecto al presupuesto
+- Evaluar el rendimiento por vendedor
+- Apoyar reuniones de seguimiento y toma de decisiones comerciales
+
+---
 ## 🚀 Próximos pasos
 - Incorporar forecast avanzado
 - Automatizar la actualización de datos
